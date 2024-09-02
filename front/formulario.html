@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Postagem de Receitas</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Postagem de Receitas</h1>
+        
+        <!-- Botão para exibir o formulário -->
+        <button type="button" id="showFormButton">Nova Receita</button>
+
+        <!-- Formulário inicialmente oculto -->
+        <form id="postForm" style="display: none;">
+            <textarea id="postContent" placeholder="Escreva sua receita aqui..."></textarea>
+            <input type="text" id="authorName" placeholder="Seu nome">
+            <button type="button" id="botao" onclick="handleSubmit(event)">Postar Receita</button>
+        </form>
+        
+        <div id="postList">
+            <!-- Aqui serão exibidas as postagens -->
+        </div>
+    </div>
+    
+    <script src="formulario.js"></script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link para o arquivo CSS externo -->
+    <link rel="stylesheet" href="home.css">
+
+    <!-- Pré-conexões e links para fontes externas do Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet">
+
+    <!-- Título da página -->
+    <title>Home</title>
+</head>
+<body>
+    <!-- Barra lateral direita -->
+    <aside class="barra-direita">
+        <div class="topo">
+            <!-- Seção do logo -->
+            <div class="logo">
+                <img class="foto-produto" src="imagens/logo1.png" alt="Logo do Produto">
+            </div>
+            
+            <!-- Botões de navegação na barra lateral -->
+            <div class="botoes">
+                <!-- Botão de perfil -->
+                <div class="linha1">
+                    <img class="perfil" src="imagens/Vectorperfil.png" alt="Ícone de perfil">
+                    <p class="perfil1">perfil</p>
+                </div>
+
+                <!-- Botão de início -->
+                <div class="linha2">
+                    <img class="inicio" src="imagens/Vectorinicio.png" alt="Ícone de início">
+                    <p class="inicio1">inicio</p>
+                </div> 
+
+                <!-- Botão de configurações -->
+                <div class="linha3">
+                    <img class="config" src="imagens/Vectorconfig.png" alt="Ícone de configurações">
+                    <p class="config1">configurações</p>
+                </div>
+            </div>  
+        </div>
+
+        <!-- Botão de logout -->
+        <div class="logout">
+            <img class="sair" src="imagens/Iconsair.png" alt="Ícone de sair">
+            <p class="sair1"> Sair</p>
+        </div>
+    </aside>
+
+    <!-- Conteúdo principal -->
+    <main>
+        <!-- Cabeçalho do conteúdo principal -->
+        <div class="main-topo">
+            <div class="esquerda">
+                <img src="imagens/atvfisica.png" alt="Imagem relacionada à atividade física">
+                <p class="titulo">Home</p>
+            </div>
+            <div class="direita">
+                <img src="imagens/caozi.png" alt="Imagem de um cachorro">
+            </div>
+        </div>
+
+        <!-- Seção de receita e botões -->
+        <div class="receita">
+            <div class="main-3">
+                <!-- Primeiro bloco de botões -->
+                <div class="bloco-2">
+                    <p class="descricao2">
+                        <!-- Botão que direciona para o formulário -->
+                        <button type="button" href="formulario.html" id="formulario" class="botao"> Formulário </button>
+                    </p>
+                </div>
+
+                <!-- Segundo bloco de botões -->
+                <div class="bloco-2">
+                    <p class="descricao2">
+                        <!-- Botão que direciona para o feed -->
+                        <button type="button" href="feed.html" id="feed" class="botao"> Feed </button>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Vincula o arquivo JavaScript externo -->
+    <script src="home.js"></script>
+</body>
+</html>
